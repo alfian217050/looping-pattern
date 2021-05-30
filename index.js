@@ -1,7 +1,6 @@
-var s = "";
-var batas = parseInt(prompt("Masukkan nilai : "));
-
+var batas = prompt("Masukkan nilai :");
 // Pola ke-1
+var s = "";
 for (var i = 1; i <= batas; i++) {
   for (var j = 1; j <= batas; j++) {
     s = s + "*";
@@ -46,7 +45,7 @@ alert("Pola ke-4 \n" + space4);
 // Pola ke-5
 var space5 = "";
 for (var i = 1; i <= 5; i++) {
-  for (var j = 1; j < i; j++) {
+  for (var j = 2; j <= i; j++) {
     space5 += "-";
   }
   for (var k = batas; k >= i; k--) {
