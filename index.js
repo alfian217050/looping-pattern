@@ -44,7 +44,7 @@ alert("Pola ke-4 \n" + space4);
 
 // Pola ke-5
 var space5 = "";
-for (var i = 1; i <= 5; i++) {
+for (var i = 1; i <= batas; i++) {
   for (var j = 2; j <= i; j++) {
     space5 += "-";
   }
